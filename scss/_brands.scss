@@ -1,0 +1,37 @@
+.brands {
+    margin-top: 100px;
+}
+.brands h2 {
+    font-size: 45px;
+    text-align: center;
+}
+.brand-wrapper {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 181px;
+    height: 55px;
+    background-color: #C4C4C4;
+    border-radius: 13px;
+    font-size: 22px;
+    font-family: "Roboto";
+    font-weight: 450;
+}
+
+.brands h3 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-underline-offset: 20px;
+    cursor: pointer;
+}

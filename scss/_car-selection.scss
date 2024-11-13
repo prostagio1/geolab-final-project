@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 .car-selection{
-    border: 1px solid red;
-    margin-top: 40px;
+    // border: 1px solid red;
+    margin-top: 80px;
     font-weight: 500;
     display: flex;
     justify-content: space-between;
@@ -18,7 +18,7 @@
 .card {
     max-width: 309px;
     height: 565px;
-    border: 1px solid red;
+    // border: 1px solid red;
     margin-top: 30px;
     background-color: #FAF5F8;
     border-radius: 10px;
@@ -53,4 +53,17 @@
     font-size: 25px;
     text-align: center;
     margin-top: 23px;
+}
+.rent-now-button {
+    width: 164px;
+    height: 40px;
+    background-color: #21408E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Roboto";
+    margin: auto;
+    border-radius: 12px;
+    margin-top: 30px;
 }
