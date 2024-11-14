@@ -1,0 +1,69 @@
+.hero {
+    width: 100%;
+    /* height: 603px; */
+    border: 2px solid red;
+    background-image: url(../images/lambo-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    aspect-ratio: 1448 / 603;
+    /* max-height: 603px; */
+    /* height: 100%; */
+    margin-top: 40px;
+    position: relative;
+}
+
+.text-content {
+    width: 308px;
+    h2{
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+    p{
+        font-family: "Roboto";
+        margin-top: 18px;
+        font-size: 26px;
+    }
+    button{
+        background-color: #21408E;
+        border: none;
+        color: white;
+        padding: 14px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 17px;
+        margin-top: 20px;
+    }
+    position: absolute;
+    bottom: 15%;
+    right: 0%;
+}
+
+@media (max-width:1200px) {
+    .text-content {
+        width: 250px;
+        h2{
+            font-size: 20px;
+        }
+        p{
+            font-size: 14px;
+        }
+        button{
+            padding: 14px 14px;
+        }
+        bottom: 5%;
+        right: -5%
+    }
+}
+
+@media (max-width:800px) {
+    .text-content {
+        display: none;
+    }
+}
